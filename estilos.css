@@ -1,0 +1,227 @@
+/* PARA PONER DE COLOR BLANCO LA LETRA DEL NAVBAR "FOOD DELIVERY" */
+.navbar-brand{
+    color: white;
+}
+
+/* PARA PONER DE COLOR BLANCO LAS DEMÁS LETRAS DEL NAVBAR */
+.nav-link{
+    color: white;
+}
+
+/* PARA PONER DE COLOR BLANCO LOS ICONOS DEL NAVBAR */
+.icono-navbar{
+    color: white;
+}
+
+/* PARA CAMBIAR EL TAMAÑO DE LOS PLATOS */
+#burger{
+    margin-top: 55px;
+    width: 150px;
+    height: 210px;
+} 
+
+#plato{
+    margin-top: 155px;
+    width: 210px;
+    height: 210px;
+}
+
+#hojas{
+    margin-left: 530px;
+}
+
+#pizza{
+    margin-left: 0px;
+}
+
+/* PARA CAMBIAR EL TAMAÑO DEL TEXTO ENCABEZADO Y LA DISTANCIA ENTRE LOS TRES PARRAFOS */
+#text1{
+    color: white;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#text2{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+#text3{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ICONOS REDES SOCIALES */
+#rrss{
+    color: white;
+    margin-bottom: 0px;
+}
+
+#rrss:hover{
+    color: red;
+}
+
+/* Hover zoom imagen */
+
+/* NO AFECTA A LOS HIJOS */
+#hoverZoomImagen{
+    overflow: hidden;
+}
+
+/* tRANSICION DE MOVIENTO DE ZOOM */
+#hoverZoomImagen img{
+    transition: transform .8s ease;
+}
+
+/* TAMAÑO DEL ZOOM */
+#hoverZoomImagen:hover img {
+    transform: scale(1.1);
+  }
+
+
+/* TEXTOS SEGUNDA PARTE */
+#textoRojo{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textoBlanco2{
+    color: white;
+}
+
+#textoBlanco22{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#iconoRojo{
+    color: red;
+}
+
+#hvr-icon{
+    color: white;
+}
+
+/* CATALOGO POSICION COMIDAS TERCERA PARTE */
+#cat1{
+    margin-left: 200px;
+}
+
+#cat4{
+    margin-left: 200px;
+}
+
+#cat3{
+    margin-left: -260px;
+}
+
+#cat6{
+    margin-left: -260px;
+}
+
+/* ★★★★★ VALORACION ESTRELLAS CATALOGO COMIDAS TERCERA PARTE */
+label{ 
+    color:orange;
+}
+
+input[type = "radio"]{ 
+    display:none;
+}
+
+.clasificacion{  /* PARA QUE VAYAN DE DERECHA A IZQUIERDA */
+    direction: rtl;
+    unicode-bidi: bidi-override; 
+}
+
+#textoBar {
+    color: white;
+  }
+
+#textoBar2 {
+    color: rgb(130, 126, 126);
+  }
+
+label:hover,
+label:hover ~ label {
+  color: gray;
+}
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+#myCarousel{
+    width: 1510px;
+    height: 650px;
+}
+
+/* PARA PONER LAS IMAGENES DE PERSONAS DEL CARRUSER CIRCULARES */
+.img-circle{
+    border-radius: 50%;
+}
+
+/* CAMBIO DE FONDO PARA SEPARAR SECCIONES */
+#separacion{
+    background-image: url("img/cuero2.jpg");
+}
+
+/* TEXTOS PENULTIMA PARTE */
+#textoBlanco222{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 250px;
+}
+
+#textoBlanco2222{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+}
+
+#textoRojo2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 250px;
+}
+
+/* ICONOS FINAL */
+#rrssFinal{
+    margin-left: 600px;
+}
+
+#megaOne{
+    margin-left: 500px;
+}
+
+/* CARRUSEL */
+.carousel-item {
+    height: 32rem;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: red;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+  }
